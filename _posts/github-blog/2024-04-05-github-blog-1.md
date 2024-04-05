@@ -2,7 +2,7 @@
 layout: post
 title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
 category: "github-blog"
-date: 2024-04-05 17:47:38 Asia/Seoul
+date: 2024-04-05 17:47:38 +09:00
 ---
 
 네이버, 티스토리, 벨로그 등 여러가지 블로그들을 경험하고 운영해왔지만 개발자라면 역시 관심을 가질 수 밖에 없는 GitHub Blog, 
