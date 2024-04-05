@@ -11,7 +11,7 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date +09:00 | date: "%Y-%m-%d %H:%M" }}</span>
+    <span class="post-date">{{ post.date + 3600 | date: "%Y-%m-%d %H:%M" }}</span>
     {{ post.content | truncatewords: 30 }}
   </div>
   {% endfor %}
