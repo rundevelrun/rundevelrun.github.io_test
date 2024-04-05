@@ -1,0 +1,12 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            런:디벨:런
+description:      ' - 똑바로 해'
+baseurl:          /
