@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
 category: "github-blog"
 date: 2024-04-05 17:47:38 +09:00
