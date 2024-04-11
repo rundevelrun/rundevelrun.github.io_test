@@ -1,11 +1,27 @@
 ---
 layout: default
 ---
-
+<script src="https://giscus.app/client.js"
+        data-repo="rundevelrun/rundevelrun.github.io"
+        data-repo-id="R_kgDOLqDJNQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLqDJNc4CenZW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
   {{ content }}
+
+  <div class="giscus"></div>
 </div>
 
 <div class="related">
