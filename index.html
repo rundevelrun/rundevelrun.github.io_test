@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+</style>
 <div class="posts">
   {% for post in site.posts %}
   <div class="post" style="-webkit-line-clamp: 10">
@@ -12,7 +13,7 @@ title: Home
       </a>
     </h1>
     <span class="post-date">{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
-    {{ post.content | truncatewords: 30 }}
+    {{ post.excerpt  | truncatewords: 30 }}
   </div>
   {% endfor %}
 </div>

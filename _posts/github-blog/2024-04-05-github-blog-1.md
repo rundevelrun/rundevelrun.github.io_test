@@ -3,14 +3,20 @@ layout: post
 title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
 category: "github-blog"
 date: 2024-04-05 17:47:38 +09:00
+last_modified_at: 2024-04-11 16:11:04 +09:00
 ---
 
 네이버, 티스토리, 벨로그 등 여러가지 블로그들을 경험하고 운영해왔지만 개발자라면 역시 관심을 가질 수 밖에 없는 GitHub Blog, 
-정확히는 [GitHub Pages](https://pages.github.com/)를 경험하고 싶어졌다. 
-
+정확히는 [GitHub Pages](https://pages.github.com/)를 경험하고 싶어졌다.
 다른 블로그들과는 다르게 개설하는 것 부터 어려움의 연속이기 때문에 첫 게시글로 그 어려움을 순차적으로 공유해보려고 한다.
 
 > 환경 : Windows 10 Pro
+
+> 관련글
+>
+> <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기</Strong> <br>
+> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/) 
+
 
 
 ## 1. Git 설치
@@ -126,6 +132,7 @@ git clone [복사한 Repository 주소]
   git push origin main
 {% endhighlight%}
 
+#### 2) 정상 확인
 - 자신의 블로그 주소로 접속해서 정상 반영 확인
 
   ![20240405_140923](https://github.com/rundevelrun/rundevelrun.github.io/assets/40383414/3cea8ac2-5af9-4af0-96db-445987cd90c5)
