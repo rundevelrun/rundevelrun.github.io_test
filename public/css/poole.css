@@ -225,7 +225,7 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
