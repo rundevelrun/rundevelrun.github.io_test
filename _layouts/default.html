@@ -19,14 +19,14 @@
       var canvas = document.createElement("canvas");
       var ctx = canvas.getContext('2d');
 
-      canvas.width = $(this).width();
-      canvas.height = $(this).height();
-
       var imgTag = $(this);
       var parentTag = $(this).parent();
 
       var image = new Image;
       image.onload = function(){
+
+        canvas.width = this.naturalWidth;
+        canvas.height = this.naturalHeight;
 
         ctx.imageSmoothingQuality = "high";
         ctx.drawImage(this,0,0,canvas.width,canvas.height);
@@ -35,7 +35,7 @@
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
-     //   imgTag.remove();
+        imgTag.remove();
       }
       image.src = $(this).attr("src");
       parentTag.append(canvas);
