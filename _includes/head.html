@@ -53,31 +53,7 @@
 
         gtag('js', new Date());
         gtag('config', 'G-CYP367BVGZ');
-
-
-        $(function () {
-            
-          $("img").load(function(){
         
-              var canvas = document.createElement("canvas");
-              var ctx = canvas.getContext('2d');
-        
-              canvas.width = $(this).width();
-              canvas.height = $(this).height();
-        
-              var image = new Image;
-              image.onload = function(){
-                ctx.drawImage(this,0,0,canvas.width,canvas.height);
-                ctx.fillStyle = "gray";
-                ctx.font = "1.25rem Diphylleia";
-                ctx.textAlign = 'center';
-                ctx.textBaseline = 'middle';
-                ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
-              }
-              image.src = $(this).attr("src");
-              $(this).parent().append(canvas);
-          }).remove();
-        });
     </script>
 
 </head>
