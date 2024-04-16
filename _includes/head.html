@@ -9,7 +9,7 @@
     <title>
         {{ site.title }}
     </title>
-	<meta name="description" content="똑바로 해. 넌 정말"/>
+    <meta name="description" content="똑바로 해. 넌 정말"/>
 
     <!-- CSS -->
     <link rel="stylesheet" href="/public/css/poole.css">
@@ -28,30 +28,38 @@
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-    
-    <!-- SEO -->    
-    <meta name="google-site-verification" content="sz6F2eYU6b44Hq5Lr-zDkKmjRJb8gmS6AJBISGtqpt4" />
-    <meta name="naver-site-verification" content="6d908ee335839da511610ed68e1119f16e079087" />
+
+    <!-- SEO -->
+    <meta name="google-site-verification" content="sz6F2eYU6b44Hq5Lr-zDkKmjRJb8gmS6AJBISGtqpt4"/>
+    <meta name="naver-site-verification" content="6d908ee335839da511610ed68e1119f16e079087"/>
 
     <!-- Adsense -->
     <meta name="google-adsense-account" content="ca-pub-2327476184552798">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2327476184552798"
             crossorigin="anonymous"></script>
-    
+
     <!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP367BVGZ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP367BVGZ"></script>
 
-	<!-- Jquery -->
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="/public/js/jquery.watermark.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-CYP367BVGZ');
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CYP367BVGZ');
-</script>
+        $(function () {
+
+            /*$("img").off("click").on("click", function () {
+                var options = "status=no,location=no,toolbar=no,scrollbars=yes,resizable=yes,menubar=no,width=" + this.naturalWidth + ", height=" + this.naturalHeight + ",top=0,left=0"
+                window.open(this.src, "_blank", options);
+            });*/
+        });
+    </script>
 
 </head>
