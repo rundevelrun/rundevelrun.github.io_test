@@ -36,6 +36,10 @@
         ctx.textBaseline = 'middle';
         ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
         imgTag.remove();
+
+        let pz = new PinchZoom(canvas);
+        pz.enable();
+
       }
       image.src = $(this).attr("src");
       parentTag.append(canvas);
