@@ -28,7 +28,7 @@
 
             var textWidth = 223.5;
             var textHeight = 72;
-            var textInterval = textWidth + 20;
+            var textInterval = textWidth + 50;
 
             ctx.imageSmoothingQuality = "high";
             ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
@@ -38,7 +38,7 @@
 
             ctx.rotate((Math.PI/180) * 45);
 
-            var fillText = "런:디벨:런" + "         ";
+            var fillText = "런:디벨:런" + "           ";
             for(var i=0;i<Math.ceil(canvas.height/textHeight);i++){
                 fillText += fillText;
             }
