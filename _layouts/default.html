@@ -38,9 +38,19 @@
         imgTag.remove();
 
 
+        var options = "status=no,location=no,toolbar=no,scrollbars=yes,resizable=yes,menubar=no,width=" + this.width + ", height=" + this.height + ",top=0,left=0"
+        var base64Image = canvas.toDataURL();
+        console.log(base64Image);
+        // window.open(base64Image, "_blank", options);
+
       }
       image.src = $(this).attr("src");
+
+
       parentTag.append(canvas);
+
+
+
     });
 
 </script>
