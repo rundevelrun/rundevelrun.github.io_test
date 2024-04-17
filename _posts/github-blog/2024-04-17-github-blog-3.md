@@ -2,6 +2,7 @@
 layout: post
 title: "[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)"
 category: "github-blog"
+tags : [github, pages, blog, jekyll, giscus]
 date : 2024-04-17 10:54:55 +09:00
 ---
 

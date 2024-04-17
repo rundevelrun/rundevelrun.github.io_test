@@ -2,6 +2,7 @@
 layout: post
 title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
 category: "github-blog"
+tags : [github, pages, blog]
 date: 2024-04-05 17:47:38 +09:00
 last_modified_at: 2024-04-17 10:58:23 +09:00
 ---
