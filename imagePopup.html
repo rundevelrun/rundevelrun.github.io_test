@@ -3,6 +3,11 @@
 <head>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
 </head>
 <body>
 </body>
@@ -23,11 +28,13 @@
 
             ctx.imageSmoothingQuality = "high";
             ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+            ctx.globalAlpha   = 1;
             ctx.fillStyle = "gray";
-            ctx.font = "6rem Diphylleia";
+            ctx.font = "5rem Diphylleia";
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
             ctx.fillText("런:디벨:런", canvas.width / 2, canvas.height / 2);
+            ctx.globalAlpha   = 0.3;
 
         }
         image.src = "https://github.com/rundevelrun/rundevelrun.github.io/assets/" + location.search.substring(1);
