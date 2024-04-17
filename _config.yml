@@ -12,3 +12,6 @@ description:      ' - 똑바로 해. 넌 정말'
 
 timezone: Asia/Seoul
 locale: "ko-KR"
+
+plugins:
+  - jekyll-sitemap
