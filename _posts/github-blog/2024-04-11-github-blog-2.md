@@ -3,6 +3,7 @@ layout: post
 title: "[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용"
 category: "github-blog"
 date : 2024-04-11 16:11:20 +09:00
+last_modified_at: 2024-04-17 10:58:46 +09:00
 ---
 
 이전 포스팅에서는 GitHub의 계정과 Repository를 만들어서 기본 페이지를 웹 브라우저에 띄우는 것 까지 진행해봤는데
@@ -14,7 +15,8 @@ date : 2024-04-11 16:11:20 +09:00
 > 관련글
 >
 > [[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기](/github-blog/2024/04/05/github-blog-1/) <br>
-> <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용</Strong>
+> <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용</Strong> <br>
+> [GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)(/github-blog/2024/04/17/github-blog-3/)
 
 
 

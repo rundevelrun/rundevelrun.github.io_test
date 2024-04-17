@@ -3,7 +3,7 @@ layout: post
 title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
 category: "github-blog"
 date: 2024-04-05 17:47:38 +09:00
-last_modified_at: 2024-04-11 16:11:04 +09:00
+last_modified_at: 2024-04-17 10:58:23 +09:00
 ---
 
 네이버, 티스토리, 벨로그 등 여러가지 블로그들을 경험하고 운영해왔지만 개발자라면 역시 관심을 가질 수 밖에 없는 GitHub Blog, 
@@ -15,7 +15,8 @@ last_modified_at: 2024-04-11 16:11:04 +09:00
 > 관련글
 >
 > <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기</Strong> <br>
-> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/) 
+> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/)  <br>
+> [GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)(/github-blog/2024/04/17/github-blog-3/)
 
 
 
