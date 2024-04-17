@@ -14,7 +14,6 @@ last_modified_at: 2024-04-17 10:58:23 +09:00
 
 > 관련글
 >
-> <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기</Strong> <br>
 > [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/)  <br>
 > [[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)](/github-blog/2024/04/17/github-blog-3/)
 

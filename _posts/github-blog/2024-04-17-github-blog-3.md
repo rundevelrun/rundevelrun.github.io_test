@@ -13,8 +13,7 @@ GitHub의 Discussions를 이용하는 [Giscus](https://giscus.app/ko)를 사용�
 > 관련글
 >
 > [[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기](/github-blog/2024/04/05/github-blog-1/) <br>
-> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/) <br>
-> <Strong>&nbsp;&nbsp;>&nbsp;&nbsp;[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)</Strong>
+> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/)
 
 
 
