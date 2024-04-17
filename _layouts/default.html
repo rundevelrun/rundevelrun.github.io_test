@@ -34,13 +34,12 @@
 
             ctx.imageSmoothingQuality = "high";
             ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-            ctx.globalAlpha   = 1;
             ctx.fillStyle = "gray";
-            ctx.font = "6rem Diphylleia";
+            ctx.font = "5rem Diphylleia";
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
             ctx.globalAlpha   = 0.3;
+            ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
             imgTag.remove();
 
 
