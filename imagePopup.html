@@ -26,18 +26,29 @@
             canvas.width = this.naturalWidth;
             canvas.height = this.naturalHeight;
 
+            var textWidth = 223.5;
+            var textHeight = 72;
+            var textInterval = textWidth + 20;
+
             ctx.imageSmoothingQuality = "high";
             ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
             ctx.fillStyle = "gray";
-            ctx.font = "5rem Diphylleia";
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.globalAlpha   = 0.3;
-            ctx.fillText("런:디벨:런", canvas.width / 2, canvas.height / 2);
+            ctx.font = "50px Diphylleia";
+            ctx.globalAlpha   = 0.4;
 
+            ctx.rotate((Math.PI/180) * 45);
+
+            var fillText = "런:디벨:런" + "         ";
+            for(var i=0;i<Math.ceil(canvas.height/textHeight);i++){
+                fillText += fillText;
+            }
+            for(var i=Math.ceil(canvas.width/textInterval) * -1 ;i<Math.ceil(canvas.width/textInterval); i++){
+                ctx.fillText(fillText, i*textInterval, i * -textInterval);
+            }
+
+            parentTag.append(canvas);
         }
         image.src = "https://github.com/rundevelrun/rundevelrun.github.io/assets/" + location.search.substring(1);
-        parentTag.append(canvas);
 
 
     });
