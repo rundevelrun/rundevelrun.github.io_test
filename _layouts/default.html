@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="ko-KR">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include sidebar.html %}
+{% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
-    </div>
+<div class="content container">
+    {{ content }}
+</div>
 
-  </body>
+</body>
 <script>
 
-    $("img").load(function(){
+    $("img").load(function () {
 
-      var canvas = document.createElement("canvas");
-      var ctx = canvas.getContext('2d');
+        var canvas = document.createElement("canvas");
+        var ctx = canvas.getContext('2d');
 
-      var imgTag = $(this);
-      var parentTag = $(this).parent();
+        var imgTag = $(this);
+        var parentTag = $(this).parent();
 
-      var image = new Image;
-      image.onload = function(){
+        var image = new Image;
+        image.onload = function () {
 
-        canvas.width = this.naturalWidth;
-        canvas.height = this.naturalHeight;
+            var imageSrc = this.src;
+            var naturalWidth = this.naturalWidth;
+            var naturalHeight = this.naturalHeight;
 
-        ctx.imageSmoothingQuality = "high";
-        ctx.drawImage(this,0,0,canvas.width,canvas.height);
-        ctx.fillStyle = "gray";
-        ctx.font = "1.25rem Diphylleia";
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
-        imgTag.remove();
+            canvas.width = naturalWidth;
+            canvas.height = naturalHeight;
 
-
-        var options = "status=no,location=no,toolbar=no,scrollbars=yes,resizable=yes,menubar=no,width=" + this.width + ", height=" + this.height + ",top=0,left=0"
-        var base64Image = canvas.toDataURL();
-        console.log(base64Image);
-        // window.open(base64Image, "_blank", options);
-
-      }
-      image.src = $(this).attr("src");
+            ctx.imageSmoothingQuality = "high";
+            ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "gray";
+            ctx.font = "2rem Diphylleia";
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText($(".sidebar-about a").text(), canvas.width / 2, canvas.height / 2);
+            imgTag.remove();
 
 
-      parentTag.append(canvas);
 
+            canvas.addEventListener("click", function () {
+                var options = "status=no,location=no,toolbar=no,scrollbars=yes,resizable=yes,menubar=no,width=" + (naturalWidth + 30) + ", height=" + (naturalHeight + 30) + ",top=0,left=0"
+                window.open("/imagePopup.html?" + (imageSrc.replace("https://github.com/rundevelrun/rundevelrun.github.io/assets/","")), "_blank", options);
+
+            });
+
+
+        }
+        image.src = $(this).attr("src");
+        parentTag.append(canvas);
 
 
     });
