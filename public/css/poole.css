@@ -358,11 +358,15 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
+.related h2{
+  font-size: 1rem;
+}
 .related-posts {
   padding-left: 0;
   list-style: none;
 }
 .related-posts h3 {
+  font-size: 1rem;
   margin-top: 0;
 }
 .related-posts li small {
