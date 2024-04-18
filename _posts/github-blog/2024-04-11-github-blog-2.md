@@ -16,7 +16,8 @@ last_modified_at: 2024-04-17 10:58:46 +09:00
 > 관련글
 >
 > [[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기](/github-blog/2024/04/05/github-blog-1/) <br>
-> [[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)](/github-blog/2024/04/17/github-blog-3/)
+> [[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)](/github-blog/2024/04/17/github-blog-3/) <br>
+> [[GitHub Blog] 무조건 따라하기 4 - Jekyll RSS 피드 만들기](/github-blog/2024/04/18/github-blog-4/) <br>
 
 
 
