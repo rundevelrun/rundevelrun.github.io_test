@@ -45,7 +45,7 @@ $ gem install jekyll-feed
 ## 2. RSS 피드를 위한 xml 파일 작성
 
 #### 1) 프로젝트 경로에 xml 파일 생성 
-- 필자의 경우 Hyde 테마에 있던 이을 그대로 사용했다. (atom.xml)
+- 필자의 경우 Hyde 테마에 있던 이름을 그대로 사용했다. (atom.xml)
 
   ![20240417_135716](https://github.com/rundevelrun/rundevelrun.github.io/assets/40383414/a08102f1-ebfc-4ab1-8543-607c4c34b0b8)
 
