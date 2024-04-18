@@ -10,12 +10,14 @@ date : 2024-04-18 14:36:21 +09:00
 그것은 바로 댓글 기능이 있어도 이 기능을 사용할 방문자가 없다는 것.
 그래서 구글과 네이버에 RSS 피드를 제출해서 검색 엔진에 노출이 되도록 해보려고 한다. 
 
-> 관련글
->
-> [[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기](/github-blog/2024/04/05/github-blog-1/) <br>
-> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/) <br>
-> [[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)](/github-blog/2024/04/17/github-blog-3/) <br>
-
+<blockquote>
+  <p>관련글</p>
+  <p>
+  {% for post in site.related_posts reversed limit:10 %}
+    <a href="{{ post.url }}">{{ post.title }}</a> <br>
+  {% endfor %}
+</p>
+</blockquote>
 
 
 ## 1. Jekyll Feed 플러그인 설치

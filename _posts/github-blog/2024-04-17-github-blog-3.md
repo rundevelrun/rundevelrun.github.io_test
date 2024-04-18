@@ -11,13 +11,14 @@ date : 2024-04-17 10:54:55 +09:00
 GitHub의 Discussions를 이용하는 [Giscus](https://giscus.app/ko)를 사용할 예정이다.
 아쉬운 점은 GitHub에 로그인한 사용자만 댓글을 달 수 있다는 것인데 여기까지 찾아오신 분들이라면 모두 GitHub를 사용할 것이라 문제가 없을 것 같다.
 
-> 관련글
->
-> [[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기](/github-blog/2024/04/05/github-blog-1/) <br>
-> [[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용](/github-blog/2024/04/11/github-blog-2/) <br>
-> [[GitHub Blog] 무조건 따라하기 4 - Jekyll RSS 피드 만들기](/github-blog/2024/04/18/github-blog-4/) <br>
-
-
+<blockquote>
+  <p>관련글</p>
+  <p>
+  {% for post in site.related_posts reversed limit:10 %}
+    <a href="{{ post.url }}">{{ post.title }}</a> <br>
+  {% endfor %}
+</p>
+</blockquote>
 
 ## 1. GitHub Giscus 앱 설치
 
