@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[GitHub Blog] 무조건 따라하기 1 - 블로그 생성하기"
+title: "[GitHub Pages 1] 깃허브 블로그 만들기"
 category: "github-blog"
 tags : [github, pages, blog]
 date: 2024-04-05 17:47:38 +09:00
-last_modified_at: 2024-04-17 10:58:23 +09:00
+last_modified_at: 2024-04-19 15:11:18 +09:00
 ---
 
 네이버, 티스토리, 벨로그 등 여러가지 블로그들을 경험하고 운영해왔지만 개발자라면 역시 관심을 가질 수 밖에 없는 GitHub Blog, 

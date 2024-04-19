@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[GitHub Blog] 무조건 따라하기 4 - Jekyll RSS 피드 만들기"
+title: "[GitHub Pages 4] Jekyll 블로그 RSS 피드 만들기"
 category: "github-blog"
 tags : [github, pages, blog, jekyll, RSS, SEO]
 date : 2024-04-18 14:36:21 +09:00
+last_modified_at: 2024-04-19 15:11:18 +09:00
 ---
 
 이전 포스팅에서 Giscus를 이용한 댓글 기능을 붙였는데 댓글 기능보다 중요한게 있었다.

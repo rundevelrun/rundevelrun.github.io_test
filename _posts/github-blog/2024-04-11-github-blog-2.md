@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[GitHub Blog] 무조건 따라하기 2 - Jekyll 테마 적용"
+title: "[GitHub Pages 2] Jekyll 테마 적용 (feat.Hyde)"
 category: "github-blog"
 tags : [github, pages, blog, jekyll]
 date : 2024-04-11 16:11:20 +09:00
-last_modified_at: 2024-04-17 10:58:46 +09:00
+last_modified_at: 2024-04-19 15:11:18 +09:00
 ---
 
 이전 포스팅에서는 GitHub의 계정과 Repository를 만들어서 기본 페이지를 웹 브라우저에 띄우는 것 까지 진행해봤는데

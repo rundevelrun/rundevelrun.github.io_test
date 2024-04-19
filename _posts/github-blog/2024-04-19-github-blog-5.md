@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[GitHub Blog] 무조건 따라하기 5 - 사이트맵 제출하기"
+title: "[GitHub Pages 5] 검색 최적화를 위한 사이트맵 제출하기"
 category: "github-blog"
 tags : [github, pages, blog, jekyll, sitemap, SEO]
 date : 2024-04-19 14:17:16 +09:00
+last_modified_at: 2024-04-19 15:11:18 +09:00
 ---
 
 지난 포스팅에서는 구글 서치 콘솔과 네이버 서치어드바이저에 RSS Feed를 제출했는데

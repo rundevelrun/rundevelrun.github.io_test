@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[GitHub Blog] 무조건 따라하기 3 - 댓글/좋아요 기능 만들기 (Giscus)"
+title: "[GitHub Pages 3] Giscus 댓글/좋아요 기능 만들기"
 category: "github-blog"
 tags : [github, pages, blog, jekyll, giscus]
 date : 2024-04-17 10:54:55 +09:00
+last_modified_at: 2024-04-19 15:11:18 +09:00
 ---
 
 이전 포스팅에서는 생성된 블로그에 Jekyll을 활용한 테마를 적용해서 기본적인 CSS, HTML 수정으로 페이지를 꾸며봤다.
