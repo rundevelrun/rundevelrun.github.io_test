@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <title>
+        {% if page.title == "Home" %}
         {{ site.title }}
+        {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
     </title>
-    <meta name="description" content="똑바로 해. 넌 정말"/>
+    <meta name="description" content="{{ site.description }}"/>
 
     <!-- CSS -->
     <link rel="stylesheet" href="/public/css/poole.css">
@@ -33,10 +37,17 @@
     <meta name="google-site-verification" content="sz6F2eYU6b44Hq5Lr-zDkKmjRJb8gmS6AJBISGtqpt4"/>
     <meta name="naver-site-verification" content="6d908ee335839da511610ed68e1119f16e079087"/>
 
-    <meta property="og:title" content="런:디벨:런">
-    <meta property="og:description" content="똑바로 해. 넌 정말">
+    <meta property="title" content="{{ page.title }} &middot; {{ site.title }}">
+
+    <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="https://rundebelrun.github.io/rundevelrun.png">
     <meta property="og:url" content="https://rundebelrun.github.io">
+
+    <meta property="twitter:title" content="{{ page.title }} &middot; {{ site.title }}">
+    <meta property="twitter:description" content="{{ site.description }}">
+    <meta property="twitter:image" content="https://rundebelrun.github.io/rundevelrun.png">
+    <meta property="twitter:domain" content="https://rundebelrun.github.io">
 
 
     <!-- Adsense -->
