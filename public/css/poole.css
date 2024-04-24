@@ -223,9 +223,11 @@ blockquote p:last-child {
   }
 }
 
+/*
 img {
   display:none;
 }
+*/
 
 img, canvas {
   max-width: 100%;
