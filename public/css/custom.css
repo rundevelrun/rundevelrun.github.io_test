@@ -15,6 +15,7 @@ p.category-group {
     font-size: 0.75rem;
     color:white;
     opacity: 0.6;
+    font-style: italic;
 }
 a.category-item {
     position:relative;
