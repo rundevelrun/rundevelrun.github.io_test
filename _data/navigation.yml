@@ -1,4 +1,11 @@
 docs:
-  - title: GitHub Pages
-    url: /category/github-blog/
-    category: "github-blog"
+  - title: Developement
+    subItem:
+      - title: Java
+        url: /category/java/
+        category: "java"
+  - title: Etc.
+    subItem:
+      - title: GitHub Pages
+        url: /category/github-blog/
+        category: "github-blog"

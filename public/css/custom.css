@@ -5,5 +5,24 @@
     font-family: "Diphylleia", serif;
 }
 .sidebar-nav {
-    font-sise: 0.75rem;
+    font-size: 0.75rem;
+    margin:2rem 0;
+}
+p.category-group {
+    margin-bottom:0px;
+    border-bottom: 1px solid;
+    max-width:80%;
+    font-size: 0.75rem;
+    color:white;
+    opacity: 0.6;
+}
+a.category-item {
+    position:relative;
+    max-width:80%;
+    font-size: 0.75rem;
+    margin-left: 20px;
+}
+a.category-item em{
+    position: absolute;
+    right: 20px;
 }

@@ -11,7 +11,10 @@
 
     <nav class="sidebar-nav">
       {% for item in site.data.navigation.docs %}
-        <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+        <p class="category-group">{{item.title}}</p>
+        {% for entry in item.subItem %}
+          <a class="category-item sidebar-nav-item{% if page.url == entry.url %} active{% endif %}" href="{{ entry.url }}">{{ entry.title }} <em>{{site.categories[entry.category] | size}}</em></a>
+        {% endfor %}
       {% endfor %}
     </nav>
 
