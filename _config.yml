@@ -15,3 +15,6 @@ locale: "ko-KR"
 
 plugins:
   - jekyll-sitemap
+
+exclude:
+  - storybook

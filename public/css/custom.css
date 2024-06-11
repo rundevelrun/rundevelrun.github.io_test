@@ -17,6 +17,7 @@ p.category-group {
     font-style: italic;
 }
 a.category-item {
+
     position:relative;
     font-size: 0.75rem;
     margin-left: 20px;

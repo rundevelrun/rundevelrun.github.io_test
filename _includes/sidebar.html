@@ -13,7 +13,15 @@
       {% for item in site.data.navigation.docs %}
         <p class="category-group">{{item.title}}</p>
         {% for entry in item.subItem %}
-          <a class="category-item sidebar-nav-item{% if page.url == entry.url %} active{% endif %}" href="{{ entry.url }}">{{ entry.title }} <em>{{site.categories[entry.category] | size}}</em></a>
+          <a class="category-item sidebar-nav-item{% if page.url == entry.url %} active{% endif %}" href="{{ entry.url }}">{{ entry.title }}
+            {% if entry.url == '/storybook' %}
+              <em><span class="material-symbols-outlined">link</span></em></a>
+            {% endif %}
+            {% if entry.url != '/storybook' %}
+              <em>{{site.categories[entry.category] | size}}</em></a>
+            {% endif %}
+
+
         {% endfor %}
       {% endfor %}
     </nav>

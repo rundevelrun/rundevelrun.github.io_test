@@ -9,3 +9,6 @@ docs:
       - title: GitHub Pages
         url: /category/github-blog/
         category: "github-blog"
+      - title: StoryBook
+        url: /storybook
+        category: "storybook"
