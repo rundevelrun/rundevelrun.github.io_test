@@ -10,5 +10,5 @@ docs:
         url: /category/github-blog/
         category: "github-blog"
       - title: StoryBook
-        url: /storybook
+        url: /sb
         category: "storybook"
