@@ -17,4 +17,4 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - storybook
+  - storybook-src
