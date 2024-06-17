@@ -1,6 +1,9 @@
 docs:
   - title: Developement
     subItem:
+      - title: React
+        url: /category/react/
+        category: "react"
       - title: Java
         url: /category/java/
         category: "java"
@@ -9,6 +12,8 @@ docs:
       - title: GitHub Pages
         url: /category/github-blog/
         category: "github-blog"
+  - title: Link
+    subItem:
       - title: StoryBook
         url: /storybook
         category: "storybook"

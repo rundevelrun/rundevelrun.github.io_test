@@ -15,7 +15,7 @@ GitHub의 Discussions를 이용하는 [Giscus](https://giscus.app/ko)를 사용�
 <blockquote>
   <p>관련글</p>
   <p>
-  {% for post in site.related_posts reversed limit:10 %}
+ {% for post in site.categories[page.category] reversed limit:5 %}
     <a href="{{ post.url }}">{{ post.title }}</a> <br>
   {% endfor %}
 </p>

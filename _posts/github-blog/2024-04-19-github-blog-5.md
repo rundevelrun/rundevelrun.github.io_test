@@ -14,7 +14,7 @@ RSS와 함께 필수로 제출해야하는 사이트맵을 제출하려고한다
 <blockquote>
   <p>관련글</p>
   <p>
-  {% for post in site.related_posts reversed limit:10 %}
+ {% for post in site.categories[page.category] reversed limit:5 %}
     <a href="{{ post.url }}">{{ post.title }}</a> <br>
   {% endfor %}
 </p>

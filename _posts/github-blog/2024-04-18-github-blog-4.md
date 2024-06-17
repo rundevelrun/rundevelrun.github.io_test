@@ -14,7 +14,7 @@ last_modified_at: 2024-04-19 15:11:18 +09:00
 <blockquote>
   <p>관련글</p>
   <p>
-  {% for post in site.related_posts reversed limit:10 %}
+ {% for post in site.categories[page.category] reversed limit:5 %}
     <a href="{{ post.url }}">{{ post.title }}</a> <br>
   {% endfor %}
 </p>
