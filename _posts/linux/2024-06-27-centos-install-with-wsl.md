@@ -40,10 +40,10 @@ WSL(Windows Subsystem for Linux) 윈도우 환경에서 리눅스 실행 파일�
 
 
 ## 2. CentOS 8
-Microsoft Store에서 다양한 WSL용 OS를 설치할 수 있지만, CentOS는 아쉽게 무료버전이 없기 때문에 다른 경로로 설치
+Microsoft Store에서 다양한 WSL용 OS를 설치할 수 있지만 CentOS는 아쉽게 무료버전이 없기 때문에 다른 경로로 설치
 
 #### 1) WSL용 CentOS 8 다운로드
-- https://github.com/mishamosher/CentOS-WSL/releases/tag/8.4-2105
+- [https://github.com/mishamosher/CentOS-WSL/releases/tag/8.4-2105](https://github.com/mishamosher/CentOS-WSL/releases/tag/8.4-2105)gi
 
   ![20240627_130545](https://github.com/rundevelrun/rundevelrun.github.io/assets/40383414/1abcc23d-e038-4dec-9b50-5cb616f339d5)
 
