@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "윈도우 환경에 리눅스 개발환경 구축 (CentOS 8)"
+title: "윈도우 WSL을 활용한 리눅스 개발환경 구축 (CentOS 8)"
 categories:  ["linux", "windows"]
 tags : [linux, centos, wsl, windows]
 # date : 2024-06-27 14:10:13 +09:00
