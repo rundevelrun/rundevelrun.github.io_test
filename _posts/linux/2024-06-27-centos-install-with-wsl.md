@@ -3,7 +3,7 @@ layout: post
 title: "윈도우 WSL을 활용한 리눅스 개발환경 구축 (CentOS 8)"
 categories:  ["linux", "windows"]
 tags : [linux, centos, wsl, windows]
-# date : 2024-06-27 14:10:13 +09:00
+date : 2024-06-27 14:10:13 +09:00
 ---
 
 개발자라면 한번쯤은 Linux 환경의 연습장이 필요할 때가 있다. 하지만 AWS 등의 Cloud 환경은 부담스럽고
