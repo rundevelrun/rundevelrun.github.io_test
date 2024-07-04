@@ -4,9 +4,6 @@ docs:
       - title: React
         url: /category/react/
         category: "react"
-      - title: Java
-        url: /category/java/
-        category: "java"
   - title: Operating System
     subItem:
       - title: Linux
