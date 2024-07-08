@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "리눅스 환경 Swap memory 할당/해제 하기"
-categories:  ["linux"]
+category:  "linux"
 tags : [linux, centos, swapmemory]
 date : 2024-07-04 15:10:18 +09:00
 ---
