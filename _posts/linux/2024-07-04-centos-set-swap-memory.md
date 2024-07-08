@@ -11,7 +11,7 @@ date : 2024-07-04 15:10:18 +09:00
 
 > 환경 : CentOS 8
 
-{% if site.categories[page.category].length() %}
+{% if site.categories[page.category].length() != 0 %}
 <blockquote>
   <p>관련글</p>
   <p>
