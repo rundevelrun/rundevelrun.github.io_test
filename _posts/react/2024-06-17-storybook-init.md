@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[React + Vite + Typescript] Storybook 설치하기 (feat. Github Page & Jekyll)"
-categories:  ["github-blog", "react"]
+category:  "react"
 tags : [github, pages, blog, react, vite, storybook]
 date : 2024-06-17 16:34:48 +09:00
 ---
