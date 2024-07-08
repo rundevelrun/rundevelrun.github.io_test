@@ -11,7 +11,7 @@ date : 2024-06-27 14:10:13 +09:00
 
 > 환경 : Windows 10 Pro
 
-{% if site.categories[page.category].length() %}
+{% if site.categories[page.category].length() != 0 %}
 <blockquote>
   <p>관련글</p>
   <p>
