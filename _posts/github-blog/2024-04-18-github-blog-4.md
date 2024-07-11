@@ -11,14 +11,8 @@ last_modified_at: 2024-04-19 15:11:18 +09:00
 그것은 바로 댓글 기능이 있어도 이 기능을 사용할 방문자가 없다는 것.
 그래서 구글과 네이버에 RSS 피드를 제출해서 검색 엔진에 노출이 되도록 해보려고 한다. 
 
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
+> 환경 : Windows 10 Pro
+
 
 
 ## 1. Jekyll Feed 플러그인 설치

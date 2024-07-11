@@ -11,17 +11,6 @@ date : 2024-07-04 15:10:18 +09:00
 
 > 환경 : CentOS 8
 
-{% if site.categories[page.category].length() != 0 %}
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
-{% endif %}
-
 
 ## 1. 개요
 

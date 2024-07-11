@@ -11,17 +11,6 @@ date : 2024-06-27 14:10:13 +09:00
 
 > 환경 : Windows 10 Pro
 
-{% if site.categories[page.category].length() != 0 %}
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
-{% endif %}
-
 
 ## 1. WSL
 WSL(Windows Subsystem for Linux) 윈도우 환경에서 리눅스 실행 파일을 사용하기 위한 호환성 계층

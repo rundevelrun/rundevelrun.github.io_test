@@ -11,17 +11,6 @@ date : 2024-06-17 16:34:48 +09:00
 
 > 환경 : Windows 10 Pro
 
-{% if site.categories[page.category].length() %}
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
-{% endif %}
-
 
 ## 1. nvm
 nvm은 Node Version Manager의 약자로 node.js 버전관리를 위해 설치한다

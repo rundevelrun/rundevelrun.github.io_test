@@ -12,14 +12,8 @@ last_modified_at: 2024-04-19 15:11:18 +09:00
 GitHub의 Discussions를 이용하는 [Giscus](https://giscus.app/ko)를 사용할 예정이다.
 아쉬운 점은 GitHub에 로그인한 사용자만 댓글을 달 수 있다는 것인데 여기까지 찾아오신 분들이라면 모두 GitHub를 사용할 것이라 문제가 없을 것 같다.
 
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
+> 환경 : Windows 10 Pro
+
 
 ## 1. GitHub Giscus 앱 설치
 

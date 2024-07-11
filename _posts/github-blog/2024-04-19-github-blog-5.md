@@ -11,14 +11,8 @@ last_modified_at: 2024-04-19 15:11:18 +09:00
 RSS와 함께 필수로 제출해야하는 사이트맵을 제출하려고한다. 사실 이 방법은 RSS 링크를 만드는 것과 거의 동일지만
 사이트맵 제공을 위한 xml 파일을 직접 만들고 수정하지 않아도 된다는 점은 다르다.
 
-<blockquote>
-  <p>관련글</p>
-  <p>
- {% for post in site.categories[page.category] reversed limit:5 %}
-    <a href="{{ post.url }}">{{ post.title }}</a> <br>
-  {% endfor %}
-</p>
-</blockquote>
+> 환경 : Windows 10 Pro
+
 
 
 ## 1. Jekyll sitemap 플러그인 설치
